@@ -13,8 +13,6 @@ const BlogService = {
     }
   },
 
-
-  
   getAllBlogs: async () => {
     try {
       const response = await api.get('/blogs');
